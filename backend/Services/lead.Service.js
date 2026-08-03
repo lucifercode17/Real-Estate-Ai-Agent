@@ -1,4 +1,4 @@
-const Lead = require("../Models/leads");
+const Lead = require("../models/leads");
 
 async function saveLead(data){
 
