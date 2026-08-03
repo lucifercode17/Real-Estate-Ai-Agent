@@ -1,5 +1,5 @@
 const { GoogleGenAI } = require("@google/genai");
-const project = require("../data/project");
+const {project}= require("../data/Project");
 const { getLead } = require("../Utils/Leads");
 
 const ai = new GoogleGenAI({
