@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json());
 app.use(cors({
   origin:[ "http://localhost:5173",
-    "https://real-estate-ai-agent-tdt2.onrender.com"
+    "https://real-estate-ai-agent-blue.vercel.app"
   ],
   credentials: true}));
 
