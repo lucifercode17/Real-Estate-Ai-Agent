@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { v4 as uuid } from "uuid";
-import API from "./services/api";
+import API from "./Services/api";
 
 import { FaMicrophone, FaPaperPlane } from "react-icons/fa";
 import { BsRobot } from "react-icons/bs";
