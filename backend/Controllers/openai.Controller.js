@@ -6,7 +6,7 @@ const { isCallEnded } = require("../Utils/CallEndDector");
 
 const { generateSummary } = require("../Services/Summary.Service");
 
-const { saveLead } = require("../Services/lead.service");
+const { saveLead } = require("../Services/lead.Service");
 exports.PostReply = async (req, res) => {
   try {
     const { sessionId, message } = req.body;
