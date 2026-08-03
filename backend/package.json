@@ -1,0 +1,30 @@
+{
+  "name": "ai-agent-backend",
+  "version": "1.0.0",
+  "description": "this is a real-Esate agent ",
+  "homepage": "https://github.com/lucifercode17/Real-Estate-Ai-Agent#readme",
+  "bugs": {
+    "url": "https://github.com/lucifercode17/Real-Estate-Ai-Agent/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucifercode17/Real-Estate-Ai-Agent.git"
+  },
+  "license": "ISC",
+  "author": "dheeraj",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^2.15.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.9.1",
+    "nodemon": "^3.1.14",
+    "openai": "^7.3.0"
+  }
+}
