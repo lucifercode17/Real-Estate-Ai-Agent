@@ -4,7 +4,7 @@ const { getLead, deleteLead } = require("../Utils/Leads");
 
 const { isCallEnded } = require("../Utils/CallEndDector");
 
-const { generateSummary } = require("../Services/summary.service");
+const { generateSummary } = require("../Services/Summary.Service");
 
 const { saveLead } = require("../Services/lead.service");
 exports.PostReply = async (req, res) => {
